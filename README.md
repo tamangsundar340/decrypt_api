@@ -5,6 +5,12 @@
 
 ![1](https://user-images.githubusercontent.com/88138560/155288018-8f6bbafd-db9b-4f6d-9061-73ca008a582e.png)
 
+# Data table
+
+
+![Screenshot 2022-02-23 170221](https://user-images.githubusercontent.com/88138560/155309784-e2882daf-b553-4fa9-ac46-f62d06c582e9.png)
+
+
 
 
 # DataTable
