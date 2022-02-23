@@ -24,14 +24,15 @@ export class DataTableComponent implements OnInit {
       processing: true
     };
 
-    this.fetchData()
+
+    this.fetchData2()
   }
 
-  fetchData() {
-    this.http.get(config.DATA_TABLE_API).subscribe((res) => {
-      this.data = res
-    })
+  async fetchData2() {
+    const res: any = await this.http.get(config.DATA_TABLE_API).toPromise();
+    this.data = res
   }
+
 
 
 }
