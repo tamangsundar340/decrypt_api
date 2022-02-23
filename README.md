@@ -1,3 +1,12 @@
+
+![2](https://user-images.githubusercontent.com/88138560/155287993-9a5e6feb-869c-4cd9-b198-be32c3a1b5c9.png)
+
+![3](https://user-images.githubusercontent.com/88138560/155288014-6c0b7f5b-899d-4598-94ba-4d660f10dc82.png)
+
+![1](https://user-images.githubusercontent.com/88138560/155288018-8f6bbafd-db9b-4f6d-9061-73ca008a582e.png)
+
+
+
 # DataTable
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
