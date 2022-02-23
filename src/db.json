@@ -1,0 +1,402 @@
+[
+    {
+      "companyid": 341,
+      "agm": "SGM",
+      "venue_time": "<p>Head Office, Dharmapath, Kathmandu, Nepal (11:00 AM)</p>",
+      "bookclose_date": "2020-09-24",
+      "meeting_date": "2020-10-05",
+      "agenda": "<p>Amendment of the existing rule.</p>",
+      "company": {
+        "id": 341,
+        "symbol": "<a href='https://www.sharesansar.com/company/nbl'>NBL</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/nbl'>Nepal Bank Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": "1523614310-nepal-bank-ss-NBL.jpg",
+        "sectorid": 1,
+        "status": "1",
+        "created_at": null,
+        "updated_at": null
+      },
+      "DT_Row_Index": 1
+    },
+    {
+      "companyid": 15,
+      "agm": "SGM",
+      "venue_time": "<p>&nbsp;Register Office, Durbarmarg, Kathmandu, Nepal (10:00 AM)</p>",
+      "bookclose_date": "2020-10-02",
+      "meeting_date": "2020-10-14",
+      "agenda": "<p>Acquisition by Nepal Investment Bank Limited,&nbsp;Swap Ratio of 100:30</p>",
+      "company": {
+        "id": 15,
+        "symbol": "<a href='https://www.sharesansar.com/company/nib'>NIB</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/nib'>Nepal Investment Bank Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": "1523614347-nepal-investment-bank-ss-NIB.jpg",
+        "sectorid": 1,
+        "status": "1",
+        "created_at": null,
+        "updated_at": null
+      },
+      "DT_Row_Index": 2
+    },
+    {
+      "companyid": 952,
+      "agm": "SGM",
+      "venue_time": "<p>Bikas Bank Headoffice, Butwal, Nepal (01:00 PM)</p>",
+      "bookclose_date": "2020-11-11",
+      "meeting_date": "2020-11-22",
+      "agenda": "<p>Amendment in memorandum&nbsp;</p>",
+      "company": {
+        "id": 952,
+        "symbol": "<a href='https://www.sharesansar.com/company/tmdbl'>TMDBL</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/tmdbl'>Tinau Mission Development Bank Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": "1562218286-tinau_mission_development.jpg",
+        "sectorid": 11,
+        "status": "1",
+        "created_at": null,
+        "updated_at": "2021-03-31T08:47:28.000000Z"
+      },
+      "DT_Row_Index": 3
+    },
+    {
+      "companyid": 464,
+      "agm": "SGM",
+      "venue_time": "<p>Vijaya Bikash Srot Kendra, Gaidakot-8, Nawalparasi (9:00 AM)</p>",
+      "bookclose_date": "2021-02-19",
+      "meeting_date": "2021-02-27",
+      "agenda": "<p>Acquisition of Khaptad Laghubitta Bittiya Sanstha Limited.</p>",
+      "company": {
+        "id": 464,
+        "symbol": "<a href='https://www.sharesansar.com/company/vlbs'>VLBS</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/vlbs'>Vijaya Laghubitta Bittiya Sanstha Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": "1524568206-vijaya-vijay-laghubitta-VLBS-logo-ss.png",
+        "sectorid": 12,
+        "status": "1",
+        "created_at": null,
+        "updated_at": null
+      },
+      "DT_Row_Index": 4
+    },
+    {
+      "companyid": 634,
+      "agm": "SGM",
+      "venue_time": "<p>Nepal Pragya Pratisthan, Kamaladi, Kathmandu (10:00 AM)</p>",
+      "bookclose_date": "2021-03-07",
+      "meeting_date": "2021-03-16",
+      "agenda": "<p>Election of three board members</p>",
+      "company": {
+        "id": 634,
+        "symbol": "<a href='https://www.sharesansar.com/company/bokl'>BOKL</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/bokl'>Bank of Kathmandu Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": "1523596194-bok-logo-ss.jpg",
+        "sectorid": 1,
+        "status": "1",
+        "created_at": null,
+        "updated_at": null
+      },
+      "DT_Row_Index": 5
+    },
+    {
+      "companyid": 971,
+      "agm": "1st SGM",
+      "venue_time": "<p>Company Office, Kohalpur-11, Banke (11:00 AM)</p>",
+      "bookclose_date": null,
+      "meeting_date": "2021-05-18",
+      "agenda": "<p>Merger with Ghodighoda Laghubitta, Increment of Capital.</p>",
+      "company": {
+        "id": 971,
+        "symbol": "<a href='https://www.sharesansar.com/company/unlbsl'>UNLBSL</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/unlbsl'>Unique Nepal Laghubitta Bittiya Sanstha Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": "1565245211-unique_nepal_laghubitta.jpg",
+        "sectorid": 14,
+        "status": "1",
+        "created_at": null,
+        "updated_at": null
+      },
+      "DT_Row_Index": 6
+    },
+    {
+      "companyid": 915,
+      "agm": "SGM",
+      "venue_time": "<p>Hotel Neman, Lahan, Siraha (2:00 PM)</p>",
+      "bookclose_date": null,
+      "meeting_date": "2021-05-25",
+      "agenda": "<p>Merger with Swastik Laghubitta and Samaj Laghubitta (1:1 swap ratio)</p>",
+      "company": {
+        "id": 915,
+        "symbol": "<a href='https://www.sharesansar.com/company/swslbsl'>SWSLBSL</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/swslbsl'>Swastik Laghubitta Bittiya Sanstha Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": null,
+        "sectorid": 12,
+        "status": "1",
+        "created_at": null,
+        "updated_at": "2021-05-09T05:13:49.000000Z"
+      },
+      "DT_Row_Index": 7
+    },
+    {
+      "companyid": 940,
+      "agm": "SGM",
+      "venue_time": "<p>Janaki Family Hotel and Lodge, Siraha (2:00 PM)</p>",
+      "bookclose_date": null,
+      "meeting_date": "2021-05-25",
+      "agenda": "<p>Merger with Swastik Laghubitta and Samaj Laghubitta (1:1 swap ratio)</p>",
+      "company": {
+        "id": 940,
+        "symbol": "<a href='https://www.sharesansar.com/company/samaj'>SAMAJ</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/samaj'>Samaj Laghubitta Bittiya Sanstha Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": "1596683713-Samaj.jpg",
+        "sectorid": 12,
+        "status": "1",
+        "created_at": null,
+        "updated_at": "2020-08-06T03:15:16.000000Z"
+      },
+      "DT_Row_Index": 8
+    },
+    {
+      "companyid": 1030,
+      "agm": "SGM",
+      "venue_time": "<p>&nbsp;Head Office, Beni-07, Myagdi (11:00 AM)</p>",
+      "bookclose_date": null,
+      "meeting_date": "2021-05-28",
+      "agenda": "<p>Acquisition with CYC Nepal Laghubitta.&nbsp;</p>",
+      "company": {
+        "id": 1030,
+        "symbol": "<a href='https://www.sharesansar.com/company/shaligram'>SHALIGRAM</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/shaligram'>Shaligram Laghubitta Bittiya Sanstha Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": null,
+        "sectorid": 11,
+        "status": "1",
+        "created_at": null,
+        "updated_at": "2021-11-11T10:29:36.000000Z"
+      },
+      "DT_Row_Index": 9
+    },
+    {
+      "companyid": 1025,
+      "agm": "SGM",
+      "venue_time": "<p>Hotel Peace Palace, Baglung-02 (11:00 AM)</p>",
+      "bookclose_date": null,
+      "meeting_date": "2021-05-28",
+      "agenda": "<p>Acquiring Shaligram Laghubitta.</p>",
+      "company": {
+        "id": 1025,
+        "symbol": "<a href='https://www.sharesansar.com/company/cyc'>CYC</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/cyc'>CYC Nepal Laghubitta Bittiya Sanstha Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": "1625827795-cycnepal.jpg",
+        "sectorid": 12,
+        "status": "1",
+        "created_at": null,
+        "updated_at": "2021-07-09T10:49:59.000000Z"
+      },
+      "DT_Row_Index": 10
+    },
+    {
+      "companyid": 1046,
+      "agm": "7th AGM",
+      "venue_time": "<p>Company's Registrar, Baneshwor (11:00 AM)</p>",
+      "bookclose_date": null,
+      "meeting_date": "2021-08-21",
+      "agenda": "<p>Financial Highlights of 2077/78, Appointment of Auditor, Issuance of IPO.</p>",
+      "company": {
+        "id": 1046,
+        "symbol": "<a href='https://www.sharesansar.com/company/smhl'>SMHL</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/smhl'>Super Mai Hydropower Public Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": null,
+        "sectorid": 7,
+        "status": "1",
+        "created_at": "2020-09-06T00:42:30.000000Z",
+        "updated_at": "2020-12-07T10:51:11.000000Z"
+      },
+      "DT_Row_Index": 11
+    },
+    {
+      "companyid": 1110,
+      "agm": "SGM",
+      "venue_time": "<p>Company's Registrar Office (11:00 AM)</p>",
+      "bookclose_date": null,
+      "meeting_date": "2021-08-18",
+      "agenda": "<p>Issuance of IPO.</p>",
+      "company": {
+        "id": 1110,
+        "symbol": "<a href='https://www.sharesansar.com/company/makar'>MAKAR</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/makar'>Makar Jitumaya Suri Hydropower Company Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": "",
+        "sectorid": 7,
+        "status": "1",
+        "created_at": "2021-07-25T11:40:36.000000Z",
+        "updated_at": "2021-07-25T11:40:36.000000Z"
+      },
+      "DT_Row_Index": 12
+    },
+    {
+      "companyid": 1080,
+      "agm": "SGM",
+      "venue_time": "<p>Company's Registrar Office, Ravibhawan, kathmandu(11:00 AM)</p>",
+      "bookclose_date": null,
+      "meeting_date": "2021-07-30",
+      "agenda": "<p>Niyamawali changes in point 27-(3) and 29,Usage of funds from the proceeds of IPO, Change in the Board of Directors- Addition of a hydropower expert and a female board member &amp; Others.</p>",
+      "company": {
+        "id": 1080,
+        "symbol": "<a href='https://www.sharesansar.com/company/mhcl'>MHCL</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/mhcl'>Molung Hydropower Company Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": "1618553266-molunghydro.jpg",
+        "sectorid": 7,
+        "status": "1",
+        "created_at": "2021-01-25T01:36:21.000000Z",
+        "updated_at": "2021-04-16T06:09:29.000000Z"
+      },
+      "DT_Row_Index": 13
+    },
+    {
+      "companyid": 689,
+      "agm": "5th AGM",
+      "venue_time": "<p>Company's Office, Thapathali, Kathmandu (9:00 AM)</p>",
+      "bookclose_date": null,
+      "meeting_date": "2021-08-29",
+      "agenda": "<p>Financial Highlights of 2077/78, 48% of Cash Dividend, Appointment of Auditor</p>",
+      "company": {
+        "id": 689,
+        "symbol": "<a href='https://www.sharesansar.com/company/nicacl'>NICACL</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/nicacl'>NIC Asia Capital Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": "1524553174-NIC-Asia-Capital-ss.png",
+        "sectorid": 10,
+        "status": "1",
+        "created_at": null,
+        "updated_at": null
+      },
+      "DT_Row_Index": 14
+    },
+    {
+      "companyid": 617,
+      "agm": "15th AGM",
+      "venue_time": "<p>Company's Registered Office, Baluwatar-04 (11:00 AM)</p>",
+      "bookclose_date": "2021-08-20",
+      "meeting_date": "2021-09-03",
+      "agenda": "<p>Financial highlights of 2077/78, Appointment of Auditor, 10% of Bonus Share, 0.5263% of Cash Dividend</p>",
+      "company": {
+        "id": 617,
+        "symbol": "<a href='https://www.sharesansar.com/company/spdl'>SPDL</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/spdl'>Synergy Power Development Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": "1621573115-synergy.jpg",
+        "sectorid": 7,
+        "status": "1",
+        "created_at": null,
+        "updated_at": "2021-05-21T04:58:47.000000Z"
+      },
+      "DT_Row_Index": 15
+    },
+    {
+      "companyid": 570,
+      "agm": "8th AGM",
+      "venue_time": "<p>Queens Cafe, Anamnagar, Kathmandu (9:00 AM)</p>",
+      "bookclose_date": "2021-09-03",
+      "meeting_date": "2021-09-19",
+      "agenda": "<p>Financial Highlights of 2077/78, Appointment of Auditor, 20% Bonus Share, 1.05% cash dividend.</p>",
+      "company": {
+        "id": 570,
+        "symbol": "<a href='https://www.sharesansar.com/company/ngpl'>NGPL</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/ngpl'>Ngadi Group Power Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": "1526271752-ngadi-group-power-ngpl-ss.jpg",
+        "sectorid": 7,
+        "status": "1",
+        "created_at": null,
+        "updated_at": null
+      },
+      "DT_Row_Index": 16
+    },
+    {
+      "companyid": 527,
+      "agm": "18th AGM",
+      "venue_time": "<p>Central Office, Thapathali, Kathmandu(11:00 AM)</p>",
+      "bookclose_date": "2021-09-03",
+      "meeting_date": "2021-09-10",
+      "agenda": "<p>Financial Highlights of 2077/78, Appointment of Auditor, 10.5% Bonus Shares, 0.55% Cash dividend, 1:0.3936 rights offering.</p>",
+      "company": {
+        "id": 527,
+        "symbol": "<a href='https://www.sharesansar.com/company/api'>API</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/api'>Api Power Company Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": "1527826850-api-power-ss.png",
+        "sectorid": 7,
+        "status": "1",
+        "created_at": null,
+        "updated_at": null
+      },
+      "DT_Row_Index": 17
+    },
+    {
+      "companyid": 150,
+      "agm": "SGM",
+      "venue_time": "<p>Head Office, Lazimpat, Kathmandu (10:00 AM)</p>",
+      "bookclose_date": "2021-08-25",
+      "meeting_date": "2021-08-31",
+      "agenda": "<p>Acquisition of Sahara Bikas Bank Limited, Mutual Fund Operation and Promotion</p>",
+      "company": {
+        "id": 150,
+        "symbol": "<a href='https://www.sharesansar.com/company/gbbl'>GBBL</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/gbbl'>Garima Bikas Bank Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": "1524638735--company-garima-bikas-bank-gbbl-ss-company.jpg",
+        "sectorid": 3,
+        "status": "1",
+        "created_at": null,
+        "updated_at": null
+      },
+      "DT_Row_Index": 18
+    },
+    {
+      "companyid": 514,
+      "agm": "11th AGM",
+      "venue_time": "<p>Central Office, Thapathali, Kathmandu (11:00 AM)</p>",
+      "bookclose_date": "2021-08-31",
+      "meeting_date": "2021-09-11",
+      "agenda": "<p>Financial Highlights of 2077/78, Appointment of Auditor, 0.89% Cash Dividend, 17% Bonus Shares, Issuance of 1:1 right share.</p>",
+      "company": {
+        "id": 514,
+        "symbol": "<a href='https://www.sharesansar.com/company/akpl'>AKPL</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/akpl'>Arun Kabeli Power Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": "1523619955-arun-kabeli-logo_ss-AKPL.png",
+        "sectorid": 7,
+        "status": "1",
+        "created_at": null,
+        "updated_at": null
+      },
+      "DT_Row_Index": 19
+    },
+    {
+      "companyid": 1022,
+      "agm": "13th AGM",
+      "venue_time": "<p>Company's Registered Office, Lainchour, Kathmandu(2:00 PM)</p>",
+      "bookclose_date": null,
+      "meeting_date": "2021-10-01",
+      "agenda": "<p>Financial highlights of 2077/78, Election of directors, Appointment of Auditor, 30% Cash Dividend, 25% Bonus Shares, Issuance of IPO.</p>",
+      "company": {
+        "id": 1022,
+        "symbol": "<a href='https://www.sharesansar.com/company/hinl'>HINL</a>",
+        "companyname": "<a href='https://www.sharesansar.com/company/hinl'>Hathway Investment Nepal Limited</a>",
+        "promoter_ordinary_id": 0,
+        "image": "1629355814-hathwaylgo.jpg",
+        "sectorid": 14,
+        "status": "1",
+        "created_at": null,
+        "updated_at": "2021-08-19T06:50:17.000000Z"
+      },
+      "DT_Row_Index": 20
+    }
+  ]

@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            </ul>
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <b>Encrypt Local data</b>
+                </li>
+            </ul>
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img [src]="user_list.avatar_url" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <br>
+                        <h5 class="card-title">Name : {{user_list.name}}</h5>
+                        <h5 class="card-title">Fallowers : {{user_list.followers}}</h5>
+                        <h5 class="card-title">Fallowing : {{user_list.following}}</h5>
+                        <h5 class="card-title">Public repository : {{user_list.public_repos}}</h5>
+                        <h5>Location : {{user_list.location}}</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
