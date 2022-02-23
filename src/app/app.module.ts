@@ -7,6 +7,8 @@ import { UserComponent } from './components/user/user.component';
 import { DataTableComponent } from './components/data-table/data-table.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserDetailComponent } from './components/user-detail/user-detail.component';
+import { HeaderComponent } from './components/header/header.component';
+import { DataTablesModule } from 'angular-datatables';
 
 
 @NgModule({
@@ -14,12 +16,14 @@ import { UserDetailComponent } from './components/user-detail/user-detail.compon
     AppComponent,
     UserComponent,
     DataTableComponent,
-    UserDetailComponent
+    UserDetailComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    DataTablesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

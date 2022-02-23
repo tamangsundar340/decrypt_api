@@ -1,1 +1,49 @@
-<p>data-table works!</p>
+<app-header></app-header>
+<div class="container">
+    <br>
+    <table id="example" class="display" style="width:100%" datatable [dtOptions]="dtOptions">
+        <thead>
+            <tr>
+                <th>S.N.</th>
+                <th>Symbol</th>
+                <th>Company</th>
+                <th>Listed share</th>
+                <th>Paid up</th>
+                <th>Total paid up capital</th>
+                <th>Market Capitalizaiton</th>
+                <th>Date of operation</th>
+                <th>LTP</th>
+                <th>AS  of</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let datas of data, index as i">
+                <td>{{i+1}}</td>
+                <td>{{datas.symbol}}</td>
+                <td>{{datas.companyname}}</td>
+                <td>{{datas.shares}}</td>
+                <td>{{datas.paidup}}</td>
+                <td>{{datas.marketcap}}</td>
+                <td>{{datas.paidupcap}}</td>
+                <td>{{datas.operationdate}}</td>
+                <td>{{datas.ltp}}</td>
+                <td>$320,800</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>S.N.</th>
+                <th>Symbol</th>
+                <th>Company</th>
+                <th>Listed share</th>
+                <th>Paid up</th>
+                <th>Total paid up capital</th>
+                <th>Market Capitalizaiton</th>
+                <th>Date of operation</th>
+                <th>LTP</th>
+                <th>AS  of</th>
+            </tr>
+        </tfoot>
+    </table>
+</div>

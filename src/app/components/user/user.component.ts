@@ -22,7 +22,6 @@ export class UserComponent implements OnInit {
     this.isLoading =true;
     this.http.get(config.API_URL).subscribe((res) =>{
       this.users = res
-      console.log(res)
       this.isLoading =false;
     })
   }

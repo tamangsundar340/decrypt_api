@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
+import { config } from '../../config';
+declare const $: any;
 
 @Component({
   selector: 'app-data-table',
@@ -7,9 +10,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DataTableComponent implements OnInit {
 
-  constructor() { }
+
+  data: any;
+
+  constructor(private http: HttpClient) { }
+  dtOptions: DataTables.Settings = {};
 
   ngOnInit(): void {
+    this.dtOptions = {
+      pagingType: 'full_numbers',
+      pageLength: 5,
+      lengthMenu: [5, 10, 25],
+      processing: true
+    };
+
+    this.fetchData()
   }
+
+  fetchData() {
+    this.http.get(config.DATA_TABLE_API).subscribe((res) => {
+      this.data = res
+    })
+  }
+
 
 }
