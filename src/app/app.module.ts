@@ -9,7 +9,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { UserDetailComponent } from './components/user-detail/user-detail.component';
 import { HeaderComponent } from './components/header/header.component';
 import { DataTablesModule } from 'angular-datatables';
+import { FacebookIntegrationComponent } from './components/facebook-integration/facebook-integration.component';
 
+import { ShareButtonsModule } from 'ngx-sharebuttons/buttons';
+import { ShareIconsModule } from 'ngx-sharebuttons/icons';
 
 @NgModule({
   declarations: [
@@ -17,13 +20,18 @@ import { DataTablesModule } from 'angular-datatables';
     UserComponent,
     DataTableComponent,
     UserDetailComponent,
-    HeaderComponent
+    HeaderComponent,
+    FacebookIntegrationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    DataTablesModule
+    DataTablesModule,
+    ShareButtonsModule.withConfig({
+      debug: true
+    }),
+    ShareIconsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,9 @@
-import { HttpClient } from '@angular/common/http';
-import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
-import { config } from '../../config';
+
+import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
+import { AppServiceService } from 'src/app/app-service.service';
+import { DataTableDirective } from 'angular-datatables';
+import { Observable, Subject } from 'rxjs';
+
 declare const $: any;
 
 @Component({
@@ -8,29 +11,36 @@ declare const $: any;
   templateUrl: './data-table.component.html',
   styleUrls: ['./data-table.component.css']
 })
-export class DataTableComponent implements OnInit {
+export class DataTableComponent implements OnInit, OnDestroy {
 
 
-  data: any;
-
-  constructor(private http: HttpClient) { }
+  data: any = [];
   dtOptions: DataTables.Settings = {};
+  dtTrigger: Subject<any> = new Subject();
+
+
+  constructor(private _appService: AppServiceService) { }
+
 
   ngOnInit(): void {
-    this.dtOptions = {
-      pagingType: 'full_numbers',
-      pageLength: 5,
-      lengthMenu: [5, 10, 25],
-      processing: true
-    };
-
-
-    this.fetchData2()
+    this.fetchData()
   }
 
-  async fetchData2() {
-    const res: any = await this.http.get(config.DATA_TABLE_API).toPromise();
-    this.data = res
+
+  ngOnDestroy() {
+    this.dtTrigger.unsubscribe();
+  }
+
+
+
+  fetchData() {
+    this._appService.fetchDataWithObservable().subscribe((res) => {
+      this.data = res
+      console.log(res)
+      this.dtTrigger.next(this.data);
+    })
+
+    // this.data = this._appService.fetchDataWithObservable()
   }
 
 

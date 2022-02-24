@@ -1,7 +1,7 @@
 <app-header></app-header>
 <div class="container">
     <br>
-    <table id="example" class="display" style="width:100%" datatable [dtOptions]="dtOptions">
+    <table id="example"  style="width:100%" datatable="ng" [dtOptions]="dtOptions" [dtTrigger]="dtTrigger">
         <thead>
             <tr>
                 <th>S.N.</th>
@@ -28,7 +28,7 @@
                 <td>{{datas.paidupcap}}</td>
                 <td>{{datas.operationdate}}</td>
                 <td>{{datas.ltp}}</td>
-                <td>$320,800</td>
+                <td>{{datas.date}}</td>
             </tr>
         </tbody>
         <tfoot>
