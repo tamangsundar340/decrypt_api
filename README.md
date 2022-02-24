@@ -5,6 +5,11 @@
 
 ![1](https://user-images.githubusercontent.com/88138560/155288018-8f6bbafd-db9b-4f6d-9061-73ca008a582e.png)
 
+# Facebook plugins
+
+![Screenshot 2022-02-24 160854](https://user-images.githubusercontent.com/88138560/155506370-650e5472-0a92-4f2c-9301-e6c34938044b.png)
+
+
 # Data table
 
 
