@@ -13,16 +13,23 @@
   <!-- fb comment integrate -->
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0"
-    nonce="L8GBYlNF"></script>
-
-    <div style="height: 100px; background-color: beige !important;">
-      <div class="fb-comments" data-href="http://localhost:4200/user/1" data-width="10" data-numposts="5">
-          Hello
-      </div>
-  </div>
+    nonce="GbeLYRbZ"></script>
 
 
   <app-root></app-root>
+
+  <script>
+    var url = 'http://localhost:4200/'
+    var http = new XMLHttpRequest();
+    http.open('GET', url);
+    http.onreadystatechange = function () {
+      if (this.readyState === this.DONE) {
+        console.log(this.responseURL)
+        this.abort() // This seems to stop the response
+      }
+    }
+    http.send()
+  </script>
 </body>
 
 </html>

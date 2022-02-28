@@ -8,12 +8,14 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppServiceService {
 
+
+  
   constructor(private http: HttpClient) { }
 
   
-  // fetchDataWithObservable() : Observable<object>{
-  //   return this.http.get(config.DATA_TABLE_API)
-  // }
+  fetchDataWithObservable2() : Observable<object>{
+    return this.http.get(config.DATA_TABLE_API)
+  }
 
   fetchDataWithObservable(){
     return this.http.get(config.DATA_TABLE_API)

@@ -13,6 +13,9 @@ import { FacebookIntegrationComponent } from './components/facebook-integration/
 
 import { ShareButtonsModule } from 'ngx-sharebuttons/buttons';
 import { ShareIconsModule } from 'ngx-sharebuttons/icons';
+import { RecaptchaComponent } from './components/recaptcha/recaptcha.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { NgxCaptchaModule } from 'ngx-captcha';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,8 @@ import { ShareIconsModule } from 'ngx-sharebuttons/icons';
     DataTableComponent,
     UserDetailComponent,
     HeaderComponent,
-    FacebookIntegrationComponent
+    FacebookIntegrationComponent,
+    RecaptchaComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +35,9 @@ import { ShareIconsModule } from 'ngx-sharebuttons/icons';
     ShareButtonsModule.withConfig({
       debug: true
     }),
-    ShareIconsModule
+    ShareIconsModule,
+    ReactiveFormsModule,
+    NgxCaptchaModule
   ],
   providers: [],
   bootstrap: [AppComponent]

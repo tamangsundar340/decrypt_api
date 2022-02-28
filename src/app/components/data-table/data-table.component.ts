@@ -2,7 +2,7 @@
 import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { AppServiceService } from 'src/app/app-service.service';
 import { DataTableDirective } from 'angular-datatables';
-import { Observable, Subject } from 'rxjs';
+import {Subject } from 'rxjs';
 
 declare const $: any;
 
@@ -17,6 +17,7 @@ export class DataTableComponent implements OnInit, OnDestroy {
   data: any = [];
   dtOptions: DataTables.Settings = {};
   dtTrigger: Subject<any> = new Subject();
+  isLoading = false
 
 
   constructor(private _appService: AppServiceService) { }
@@ -34,15 +35,17 @@ export class DataTableComponent implements OnInit, OnDestroy {
 
 
   fetchData() {
+    this.isLoading = true;
     this._appService.fetchDataWithObservable().subscribe((res) => {
       this.data = res
-      console.log(res)
+      this.isLoading = false;
       this.dtTrigger.next(this.data);
     })
-
-    // this.data = this._appService.fetchDataWithObservable()
   }
 
-
-
+  fetchData2() {
+    this.dtTrigger.next(this.data)
+    this.data = this._appService.fetchDataWithObservable()
+    
+  }
 }

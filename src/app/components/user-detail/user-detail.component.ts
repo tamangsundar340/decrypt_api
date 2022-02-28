@@ -28,7 +28,6 @@ export class UserDetailComponent implements OnInit {
   getUserDetail(i:number) {
     this.http.get(config.DETAIL_API_URL+i).subscribe((user) => {
       this.users = user
-      console.warn("USERS DETAIL = ",this.users)
       const userinfo = CryptoJS.AES.encrypt(JSON.stringify(this.users), 'mysecret_key').toString()
       sessionStorage.setItem('user-detail', JSON.stringify(userinfo))
     })

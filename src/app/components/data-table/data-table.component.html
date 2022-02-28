@@ -1,7 +1,7 @@
 <app-header></app-header>
 <div class="container">
     <br>
-    <table id="example"  style="width:100%" datatable="ng" [dtOptions]="dtOptions" [dtTrigger]="dtTrigger">
+    <table id="example" style="width:100%" datatable="ng" [dtOptions]="dtOptions" [dtTrigger]="dtTrigger">
         <thead>
             <tr>
                 <th>S.N.</th>
@@ -13,22 +13,29 @@
                 <th>Market Capitalizaiton</th>
                 <th>Date of operation</th>
                 <th>LTP</th>
-                <th>AS  of</th>
+                <th>AS of</th>
 
             </tr>
         </thead>
         <tbody>
             <tr *ngFor="let datas of data, index as i">
-                <td>{{i+1}}</td>
-                <td>{{datas.symbol}}</td>
-                <td>{{datas.companyname}}</td>
-                <td>{{datas.shares}}</td>
-                <td>{{datas.paidup}}</td>
-                <td>{{datas.marketcap}}</td>
-                <td>{{datas.paidupcap}}</td>
-                <td>{{datas.operationdate}}</td>
-                <td>{{datas.ltp}}</td>
-                <td>{{datas.date}}</td>
+                <ng-container *ngIf="!isLoading">
+                    <td>{{i+1}}</td>
+                    <td>{{datas.symbol}}</td>
+                    <td>{{datas.companyname}}</td>
+                    <td>{{datas.shares}}</td>
+                    <td>{{datas.paidup}}</td>
+                    <td>{{datas.marketcap}}</td>
+                    <td>{{datas.paidupcap}}</td>
+                    <td>{{datas.operationdate}}</td>
+                    <td>{{datas.ltp}}</td>
+                    <td>{{datas.date}}</td>
+                </ng-container>
+                <ng-container *ngIf="isLoading">
+                    <div class="spinner-border m-5 mx-auto" role="status">
+                        <span class="sr-only text-center"></span>
+                    </div>
+                </ng-container>
             </tr>
         </tbody>
         <tfoot>
@@ -42,7 +49,7 @@
                 <th>Market Capitalizaiton</th>
                 <th>Date of operation</th>
                 <th>LTP</th>
-                <th>AS  of</th>
+                <th>AS of</th>
             </tr>
         </tfoot>
     </table>
